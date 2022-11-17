@@ -1,0 +1,74 @@
+/* Navbar */
+.navbar_aot{
+    background-image: url(Photos/alternate_main.jpg);
+    background-size: cover;
+    width: 100%;
+    min-height: 500px;
+    min-width: 500px;
+    opacity: 0.5;
+}
+
+.navbar_aot a{
+    padding: 10px;
+    margin: 0 5px;
+    color: white;
+}
+
+.navbar_aot a:hover{
+    border-bottom: white 2px solid;
+}
+
+.navbar_aot .flex{
+    justify-content: space-between;
+}
+
+.navbar_aot nav ul{
+    display: flex;
+}
+
+.navbar_aot nav ul li {
+    list-style: none;
+    font-size: 20px;
+}
+
+.main_aot {
+    justify-content: center;
+    text-align: center;
+}
+
+.list {
+    list-style: none;
+    text-align: justify;
+}
+
+.main_aot {
+    margin: 0em 4em 0em 4em;
+    font-family: 'Open Sans';
+    font-size: 1rem;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+}
+
+.wall_img_aot img {
+    transition: transform 0.25s ease; /* Animation */
+    cursor: zoom-in;
+}
+
+.wall_img_aot img:active {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+    cursor: zoom-out;
+}
+
+.header {
+    color: aqua;
+}
+
+a:visited {
+    color: aqua;
+}
+
+a:hover {
+    color: white;
+}
